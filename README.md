@@ -102,9 +102,12 @@ project/
 ├── Dockerfile
 ├── package.json
 ├── src/
-├── dist/
+│   └── index.js
+├── k8s/                 
 ├── images/
 │   └── docker-multistage.png
+├── .dockerignore
+├── .gitignore
 └── README.md
 ```
 
