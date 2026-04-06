@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-docker-multistage-app",
+  "version": "1.0.0",
+  "description": "Node.js app with Docker multi-stage build",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r src/* dist/",
+    "start": "node dist/index.js",
+    "dev": "node src/index.js"
+  },
+  "author": "Piyush",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
